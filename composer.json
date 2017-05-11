@@ -1,4 +1,6 @@
 {
+  "name": "lukaskolista/i-systems-unit-tests",
+  "description": "Default environment for unit testing",
   "require-dev": {
     "phpunit\/phpunit": "^5.0.0"
   },

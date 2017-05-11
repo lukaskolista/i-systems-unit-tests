@@ -2,9 +2,10 @@
 W celu uruchomienia projektu wymagane jest posiadanie **php w wersji >= 5.6**. Aby skonfigurować środowisko należy wykonać poniższą instrukcję.
 
 ## Instalacja zależności
-1. Będąc w katalogu głównym projektu wykonaj polecenie `php composer.phar install`
+1. Pobierz composer zgodnie z instrukcją: https://getcomposer.org/download/
+2. Wykonaj polecenie `php composer.phar create-project lukaskolista/i-systems-unit-tests nazwa-katalogu-docelowego dev-master`
 
-Od tej pory możesz uruchamiać testy w projekcie za pomocą polecenia `php vendor/bin/phpunit`
+Od tej pory możesz uruchamiać testy w utworzonym projekcie (nazwa-katalogu-docelowego) za pomocą polecenia `php vendor/bin/phpunit`
 
 ## Konfiguracja runnera w PhpStorm:
 
